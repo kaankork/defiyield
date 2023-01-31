@@ -12,17 +12,25 @@ https://docs.defiyield.app/audits/rekt-database
 
 ## Visualizations on Dashboard
 
-Three interactive plots show how the issue type and category evolve over time. Each interactive plot shows the count value as the user hovers over the data. For example, 
+The interactive plots show how the issue type and category evolve over time. Each interactive plot shows the count value as the user hovers over the data. 
 
-- How does each category (Bridge, CeFi, NFT, Token etc.) evolve over time? 
+- How does lost funds evolve over time for each category? 
 
-![figure1](images/figure1.png)
+![figure1](images/total_category.png)
 
-- How does each issue type (Abandoned, Rugpull, Phishing etc.) evolve over time? 
+- How does lost funds evolve over time for each issue type?
 
-![figure2](images/figure2.png)
+![figure1](images/total_issue.png)
 
-- Which issue types tend to be more frequent for each category? 
+- How does occurence frequency of each category (Bridge, CeFi, NFT, Token etc.) evolve over time? 
+
+![figure1](images/occ_category.png)
+
+- How does occurence frequency of each issue type (Abandoned, Rugpull, Phishing etc.) evolve over time? 
+
+![figure2](images/occ_issue.png)
+
+- Which category / issue type combinations have been more frequent than others?
 
 ![heatmap](images/heatmap.png)
 
