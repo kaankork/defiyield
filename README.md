@@ -1,17 +1,36 @@
 # DeFiYield
+Dashboard: https://kaankorkmaz-defiyield-dash.streamlit.app/ 
+
 GitHub Source Link: https://github.com/kaankork/defiyield
 
 ## Task
 Here is our Rect Database: https://defiyield.app/rekt-database
 https://docs.defiyield.app/audits/rekt-database
 
-Task: 
 -  prepare the visualization of risk vectors and how it evolves over time?
 - Share a jupyter notebook (or equivalent) in case of this task.
 
+## Visualizations on Dashboard
+
+Three interactive plots show how the issue type and category evolve over time. Each interactive plot shows the count value as the user hovers over the data. For example, 
+
+- How does each category (Bridge, CeFi, NFT, Token etc.) evolve over time? 
+
+![figure1](images/figure1.png)
+
+- How does each issue type (Abandoned, Rugpull, Phishing etc.) evolve over time? 
+
+![figure2](images/figure2.png)
+
+- Which issue types tend to be more frequent for each category? 
+
+![heatmap](images/heatmap.png)
+
 ## Learnings
 ### Risk Vectors 
-(link)[https://www.coindesk.com/layer2/2022/02/03/the-five-big-risk-vectors-of-defi/]
+
+[Source 1](https://www.coindesk.com/layer2/2022/02/03/the-five-big-risk-vectors-of-defi/)
+[Source 2](https://help.coinbase.com/en/coinbase/trading-and-funding/advanced-trade/defi-investment-risks)
 
 Risk dimensions in DeFi products remain understudied. 
 
@@ -22,7 +41,7 @@ Challenges
 - decentralized -> introduces new risk elements
 - it is likely that DeFi will require a native risk management models that encompass the native protocol, infrastructure and market risks of the sector.
 
-(link)[https://help.coinbase.com/en/coinbase/trading-and-funding/advanced-trade/defi-investment-risks]
+
 
 ### Types of Risk Vectors
 1. **Instrinsic Protocol Risk** - risk mechanics embedded by default in the design of a protocol
@@ -60,15 +79,3 @@ Challenges
    5. Oracle Issue
    6. Other
 
-## Ideas for Visualization
-- How does each category (Bridge, CeFi, NFT, Token etc.) evolve over time? 
-
-![figure1](images/figure1.png)
-
-- How does each issue type (Abandoned, Rugpull, Phishing etc.) evolve over time? 
-
-![figure2](images/figure2.png)
-
-- Which issue types tend to be more frequent for each category? 
-
-![heatmap](images/heatmap.png)
