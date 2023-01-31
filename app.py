@@ -87,7 +87,7 @@ st.write("Hints:")
 st.write("1 - Classes on plots can be hidden/unhidden by clicking on the legend. Double-click will select one class and hide the others.")
 st.write("2 - fundsLost column on tables can be sorted by clicking on the header.")
 st.write("---")
-st.markdown("## How does the total amount of lost funds for each ISSUE TYPE evolve over time?")
+st.markdown("## Total lost funds (in $) per ISSUE TYPE vs. Time")
 col1, col2, col3 = st.columns([0.25, 0.05, 0.7])
 with col1: 
     st.write("Choose an issue type")
@@ -114,7 +114,7 @@ with col3:
     st.dataframe(df_filtered[cols], use_container_width=True)
     
 st.write("---")
-st.markdown("## How does the total amount of lost funds for each CATEGORY evolve over time?")
+st.markdown("## Total lost funds (in $) per CATEGORY vs. Time")
 col1_, col2_, col3_ = st.columns([0.25, 0.05, 0.7])
 with col1_: 
     st.write("Choose a category")
@@ -166,11 +166,11 @@ with col3_:
     st.dataframe(df_filtered_category[cols], use_container_width=True)
     
 st.write("---")
-st.markdown("## How does occurency count of each CATEGORY evolve over time?")
+st.markdown("## Occurence Frequency per ISSUE TYPE vs. time")
 st.plotly_chart(fig_issueType, use_container_width=True)
 st.write("---")
-st.markdown("## How does occurency count of each ISSUE TYPE evolve over time? ")
+st.markdown("## Occurence Frequency per CATEGORY vs. time")
 st.plotly_chart(fig_category, use_container_width=True)
 st.write("---")
-st.markdown("## Which issue types tend to be more frequent for each category? ")
+st.markdown("## Occurence Frequency per Category & Issue Type combination")
 st.plotly_chart(fig_heatmap, use_container_width=True)
