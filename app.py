@@ -166,10 +166,10 @@ with col3_:
     st.dataframe(df_filtered_category[cols], use_container_width=True)
     
 st.write("---")
-st.markdown("## How does occurency count of each CATEGORY (Bridge, CeFi, NFT, Token etc.) evolve over time?")
+st.markdown("## How does occurency count of each CATEGORY evolve over time?")
 st.plotly_chart(fig_issueType, use_container_width=True)
 st.write("---")
-st.markdown("## How does occurency count of each ISSUE TYPE (Abandoned, Rugpull, Phishing etc.) evolve over time? ")
+st.markdown("## How does occurency count of each ISSUE TYPE evolve over time? ")
 st.plotly_chart(fig_category, use_container_width=True)
 st.write("---")
 st.markdown("## Which issue types tend to be more frequent for each category? ")
