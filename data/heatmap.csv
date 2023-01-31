@@ -1,0 +1,83 @@
+category,issueType,fundsLost
+Borrowing and Lending,Access Control,107211963
+Borrowing and Lending,Flash Loan Attack,19180000
+Borrowing and Lending,Oracle Issue,181760000
+Borrowing and Lending,Other,282066559
+Borrowing and Lending,Reentrancy,79749026
+Borrowing and Lending,Rugpull,8475985
+"Borrowing and Lending,CeFi",Other,3990000000
+"Borrowing and Lending,CeFi",Rugpull,2000000000
+"Borrowing and Lending,Exchange (DEX)",Flash Loan Attack,130000000
+"Borrowing and Lending,Exchange (DEX)",Other,4071800
+"Borrowing and Lending,Exchange (DEX),Stablecoin",Oracle Issue,110911
+"Borrowing and Lending,NFT",Oracle Issue,1115266
+"Borrowing and Lending,NFT",Reentrancy,1430000
+"Borrowing and Lending,Other",Oracle Issue,2000000
+"Borrowing and Lending,Other",Other,90000000
+"Borrowing and Lending,Stablecoin",Oracle Issue,35000000
+Bridge,Access Control,726165500
+Bridge,Other,684739021
+"Bridge,Exchange (DEX)",Access Control,79670
+CeFi,Access Control,1744243263
+CeFi,Other,4465442316
+CeFi,Phishing,0
+CeFi,Rugpull,11938889900
+"CeFi,Other",Other,1000000000
+"CeFi,Yield Aggregator",Access Control,160000000
+Exchange (DEX),Access Control,30273193
+Exchange (DEX),Flash Loan Attack,72331559
+Exchange (DEX),Honeypot,210563
+Exchange (DEX),Other,395737878
+Exchange (DEX),Phishing,8630000
+Exchange (DEX),Rugpull,69848438
+"Exchange (DEX),NFT",Phishing,165000
+"Exchange (DEX),NFT",Rugpull,50625
+"Exchange (DEX),NFT,Token",Reentrancy,31096
+"Exchange (DEX),Token",Other,3110105
+"Exchange (DEX),Yield Aggregator",Other,89522
+"Exchange (DEX),Yield Aggregator",Rugpull,5673646
+Gaming / Metaverse,Access Control,140738740
+Gaming / Metaverse,Flash Loan Attack,15113001
+Gaming / Metaverse,Other,861320
+Gaming / Metaverse,Rugpull,7633558
+"Gaming / Metaverse,NFT",Access Control,15444277
+"Gaming / Metaverse,NFT",Rugpull,3748151
+"Gaming / Metaverse,NFT,Token",Rugpull,255682
+"Gaming / Metaverse,Token",Rugpull,936906
+"Gaming / Metaverse,Yield Aggregator",Rugpull,20800000
+NFT,Abandoned,4300000
+NFT,Access Control,18918571
+NFT,Other,13113269
+NFT,Phishing,458551
+NFT,Reentrancy,19219
+NFT,Rugpull,8375044
+"NFT,Other",Access Control,177873
+"NFT,Other",Other,130000
+"NFT,Token",Rugpull,2174433
+Other,Access Control,219817762
+Other,Flash Loan Attack,60528947
+Other,Other,4306859132
+Other,Phishing,12170000
+Other,Rugpull,140959934
+"Other,Token",Flash Loan Attack,122960
+"Other,Token",Other,91000
+"Other,Token",Rugpull,6000000
+"Other,Yield Aggregator",Other,14000000
+Stablecoin,Flash Loan Attack,184834635
+Stablecoin,Honeypot,0
+Stablecoin,Other,40137434430
+Stablecoin,Rugpull,46544705
+"Stablecoin,Yield Aggregator",Other,6000000
+Token,Access Control,45262
+Token,Flash Loan Attack,29166947
+Token,Honeypot,7727695
+Token,Oracle Issue,85604
+Token,Other,923869
+Token,Phishing,255780
+Token,Rugpull,34249309
+"Token,Yield Aggregator",Other,472459
+"Token,Yield Aggregator",Rugpull,60000000
+Yield Aggregator,Flash Loan Attack,99987150
+Yield Aggregator,Other,246048829
+Yield Aggregator,Reentrancy,40000000
+Yield Aggregator,Rugpull,37393318
