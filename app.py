@@ -70,8 +70,14 @@ fig_heatmap.update_layout(xaxis=dict(showgrid=False),
 )
 
 st.title("DeFiYield REKT DB Analytics Dashboard")
-st.write("Created by Kaan Korkmaz.")
-
+st.markdown("Created by [Kaan Korkmaz](https://www.linkedin.com/in/kaankorkmaz/). Source code: https://github.com/kaankork/defiyield")
+st.write("Hint: Classes on each plot can be hidden/unhidden by clicking on the legend. Double-click will select one class and hide the others.")
+st.write("---")
+st.write("How does each category (Bridge, CeFi, NFT, Token etc.) evolve over time?")
 st.plotly_chart(fig_issueType, use_container_width=True)
+st.write("---")
+st.write("How does each issue type (Abandoned, Rugpull, Phishing etc.) evolve over time? ")
 st.plotly_chart(fig_category, use_container_width=True)
+st.write("---")
+st.write("Which issue types tend to be more frequent for each category? ")
 st.plotly_chart(fig_heatmap, use_container_width=True)
